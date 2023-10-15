@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe579e2-ec45-4541-9413-4fc76b9d3007" name="Changes" comment="Updated Version" />
+    <list default="true" id="bbe579e2-ec45-4541-9413-4fc76b9d3007" name="Changes" comment="Updated Version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <favorite-branches>
       <branch-storage>
@@ -86,7 +91,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="initialCheckin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,6 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ALLERGICATEVersion2 [signingReport]" />
         <item itemvalue="Gradle.ALLERGICATEVersion2 [signingReport]" />
       </list>
     </recent_temporary>
