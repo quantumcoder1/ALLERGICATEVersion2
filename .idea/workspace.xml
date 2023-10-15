@@ -77,6 +77,8 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="initialCheckin" />
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+                <branch-info repo="$PROJECT_DIR$" source="InitialCheckin2" />
               </list>
             </value>
           </entry>
@@ -91,7 +93,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="initialCheckin" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
