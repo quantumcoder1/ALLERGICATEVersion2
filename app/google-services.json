@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_number": "298505745262",
-    "project_id": "allergicate-login",
+     "project_id": "allergicate-login",
     "storage_bucket": "allergicate-login.appspot.com"
   },
   "client": [
@@ -14,7 +14,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "298505745262-smkr01tomi66b43c5rj7nn88iv92ul1k.apps.googleusercontent.com",
+          "client_id": "298505745262-nibdgdqh1pcnv3bkci2s6b1pgv0avok4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

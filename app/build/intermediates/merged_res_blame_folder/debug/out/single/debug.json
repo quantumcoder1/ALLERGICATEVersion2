@@ -1,170 +1,246 @@
 [
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/baseline_arrow_back_24.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_menu_item.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\menu_item.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_main.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_main.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_favorite.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\favorite.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_emailicon.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/emailicon.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/xml_api_keys.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/xml/api_keys.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_person.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\person.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_personicon.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/personicon.xml"
+        "merged": "com.example.allergicateversion2.app-merged_res-39:/drawable_peanut.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-41:/drawable/peanut.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_securityicon.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/securityicon.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_btn_bg.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\btn_bg.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_googleicon.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/googleicon.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_emailicon.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\emailicon.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_content_scrolling.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\content_scrolling.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_baseline_search_24.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/baseline_search_24.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_allergy_list.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_allergy_list.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_googleicon.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\googleicon.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_backarrowblack.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/backarrowblack.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_email.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\email.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_splashscreen.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/splashscreen.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_allergicatelogo.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/allergicatelogo.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_allergicatelogo.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\allergicatelogo.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_btn_bg.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/btn_bg.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_security.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\security.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_facebook.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\facebook.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.allergicateversion2.app-merged_res-39:/drawable_fish.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-41:/drawable/fish.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_backarrowblack.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\backarrowblack.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_person.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/person.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_restaurant_info.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_restaurant_info.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_facebook.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/facebook.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_restaurant_information.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_restaurant_information.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_home_screen.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_home_screen.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_peanut.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\peanut.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_email.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/email.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_search_results_map.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_search_results_map.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout-w1240dp_content_scrolling.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout-w1240dp\\content_scrolling.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/xml_backup_rules.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_security.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/security.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.allergicateversion2.app-merged_res-40:/layout_activity_restaurant_info.xml.flat",
-        "source": "com.example.allergicateversion2.app-main-42:/layout/activity_restaurant_info.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\input_bg.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_custom_info_window.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/custom_info_window.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_fragment_restaurants_info.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\fragment_restaurants_info.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_register.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_register.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_home_screen.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_home_screen.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.allergicateversion2.app-merged_res-39:/drawable_milk.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-41:/drawable/milk.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_login.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_login.xml"
+        "merged": "com.example.allergicateversion2.app-merged_res-39:/drawable_gluten.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-41:/drawable/gluten.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/drawable_input_bg.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/drawable/input_bg.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-merged_res-40:/layout_activity_forgot_password.xml.flat",
-        "source": "/Users/nileshsathyanarayanan/.gradle/daemon/7.5/com.example.allergicateversion2.app-main-42:/layout/activity_forgot_password.xml"
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_securityicon.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\securityicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout-w936dp_content_scrolling.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout-w936dp\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\xml_api_keys.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\xml\\api_keys.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_egg.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\egg.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_fish.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\fish.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_search_results_map.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_search_results_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_gluten.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\gluten.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_personicon.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\personicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.allergicateversion2.app-merged_res-39:/drawable_egg.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-41:/drawable/egg.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_milk16x16.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\milk16x16.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_activity_allergy_list.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\activity_allergy_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\menu_menu_scrolling.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\menu\\menu_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_splashscreen.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\splashscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\drawable_custom_info_window.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\drawable\\custom_info_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-39:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-41:\\layout\\fragment_map.xml"
     }
 ]

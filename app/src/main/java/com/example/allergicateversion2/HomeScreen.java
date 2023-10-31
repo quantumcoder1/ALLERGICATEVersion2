@@ -38,7 +38,7 @@ public class HomeScreen extends AppCompatActivity {
     TextView welcomeTextView;
     Button btnSearch;
     TextInputEditText cusine_bar;
-
+    UserInfo user;
 
     //    @SuppressLint("WrongViewCast")
     @SuppressLint("MissingInflatedId")
@@ -49,7 +49,7 @@ public class HomeScreen extends AppCompatActivity {
         welcomeTextView = findViewById(R.id.welcomeText);
         btnSearch = findViewById(R.id.btnSearch);
         search_bar = findViewById(R.id.search_bar);
-        UserInfo user = getIntent().getParcelableExtra("keyuser");
+        this.user = getIntent().getParcelableExtra("keyuser");
         if (user != null) {
             welcomeTextView.append(" " + user.getUserName());
         }
@@ -65,6 +65,7 @@ public class HomeScreen extends AppCompatActivity {
                 }
                 Intent intent = new Intent(HomeScreen.this, SearchResultsMap.class);
                 intent.putExtra("locationKey", location);
+                intent.putExtra("keyuser", user);
                 startActivity(intent);
                 finish();
             }

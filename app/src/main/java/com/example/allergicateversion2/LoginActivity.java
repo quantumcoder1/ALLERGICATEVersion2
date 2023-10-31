@@ -18,9 +18,11 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -98,6 +100,23 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
                 mAuth.signInWithEmailAndPassword(inputEmail, inputPasswords)
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                if (e instanceof FirebaseAuthException) {
+                                    // Get the error code and message
+                                    String errorCode = ((FirebaseAuthException) e).getErrorCode();
+                                    String errorMessage = ((FirebaseAuthException) e).getMessage();
+
+                                    // Display the error details in a Toast message
+                                    String errorDetails = "Error code: " + errorCode + "\n" + "Error message: " + errorMessage;
+                                    Toast.makeText(getApplicationContext(), errorDetails, Toast.LENGTH_SHORT).show();
+                                } else {
+                                    // If it's not a FirebaseAuthException, display a general error message
+                                    Toast.makeText(getApplicationContext(), "Authentication failed: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        })
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful()) {
                                 Toast.makeText(getApplicationContext(), "Login Successful", Toast.LENGTH_SHORT).show();
@@ -120,7 +139,7 @@ public class LoginActivity extends AppCompatActivity {
                                             }
                                         } else {
                                             // No user with the specified email ID found
-                                            Toast.makeText(LoginActivity.this, "User not found", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(LoginActivity.this, "    User not found", Toast.LENGTH_SHORT).show();
                                         }
                                     }
 

@@ -37,6 +37,7 @@
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
+        android:text="Sammamish"
         android:textColor="#FEFEFE"
         android:textColorHint="#FEFEFE"
         app:layout_constraintEnd_toEndOf="parent"

@@ -2408,6 +2408,7 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen app_bar_height
 dimen appcompat_dialog_background_inset
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
@@ -2473,6 +2474,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -3051,6 +3053,7 @@ dimen places_autocomplete_search_bar_padding
 dimen places_autocomplete_search_input_padding
 dimen places_autocomplete_search_input_text
 dimen places_autocomplete_vertical_dropdown
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3178,9 +3181,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable egg
 drawable email
 drawable emailicon
 drawable facebook
+drawable favorite
+drawable fish
+drawable gluten
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googleicon
@@ -3220,6 +3227,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable milk
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3270,6 +3278,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable peanut
 drawable person
 drawable personicon
 drawable places_autocomplete_toolbar_shadow
@@ -3356,6 +3365,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3380,6 +3390,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backArrow
+id backArrow2
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3396,7 +3407,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnBack
 id btnGoogle
 id btnNext
 id btnRegister
@@ -3441,7 +3451,6 @@ id cradle
 id currentState
 id custom
 id customPanel
-id custom_info_window
 id cut
 id dairy
 id dark
@@ -3531,6 +3540,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageViewRestaurantPhoto
 id immediateStop
 id included
 id indeterminate
@@ -3557,11 +3567,15 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayoutForIcons
 id listMode
 id list_item
 id listquestion
 id m3_side_sheet
-id map
+id mapFragment
+id mapFragmentContainer
+id markerInfoFragment
+id markerInfoFragmentContainer
 id marquee
 id masked
 id match_constraint
@@ -3587,6 +3601,9 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuDescription
+id menuItemLayout
+id menuItemTitle
 id message
 id middle
 id mini
@@ -3691,8 +3708,12 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBarAllergy
+id ratingBarVegan
+id ratingBarVegetarian
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3710,6 +3731,8 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewMenuItems
+id scrollViewMenuItemsPage
 id scrollable
 id search_badge
 id search_bar
@@ -3801,9 +3824,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textVeganRating
+id textVegetarianRating
 id textView
 id textViewALLERGICATE
 id textViewALLERGICATE2
+id textViewAllergyIndex
+id textViewTitle
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3831,6 +3858,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id treeNuts
 id triangle
+id tvRestaurantTitle
+id tvRestaurantTitle2
+id txtRestaurantInfo
 id unchecked
 id uniform
 id unlabeled
@@ -3971,9 +4001,11 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout activity_restaurant_info
+layout activity_restaurant_information
 layout activity_search_results_map
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout content_scrolling
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3990,6 +4022,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_map
+layout fragment_restaurants_info
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4009,6 +4043,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout menu_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4063,6 +4098,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu_scrolling
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -4095,6 +4131,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_settings
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4142,9 +4179,11 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_places_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string large_text
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -4256,6 +4295,7 @@ string places_powered_by_google
 string places_search_error
 string places_try_again
 string project_id
+string restaurants
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4263,6 +4303,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string title_activity_scrolling
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4777,6 +4818,9 @@ style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
 style Theme_ALLERGICATEVersion2
+style Theme_ALLERGICATEVersion2_AppBarOverlay
+style Theme_ALLERGICATEVersion2_NoActionBar
+style Theme_ALLERGICATEVersion2_PopupOverlay
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight

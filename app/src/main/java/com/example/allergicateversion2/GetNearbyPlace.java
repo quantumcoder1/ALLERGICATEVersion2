@@ -1,10 +1,13 @@
 package com.example.allergicateversion2;
 
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONArray;
@@ -31,14 +34,19 @@ public class GetNearbyPlace extends AsyncTask<Object,String,String> {
 
     SearchResultsMap searchResultsMap;
 
+    UserInfo userInfo;
+
     public GetNearbyPlace(SearchResultsMap searchResultsMap) {
         this.searchResultsMap = searchResultsMap;
+    }
+    public GetNearbyPlace() {
     }
 
     @Override
     protected String doInBackground(Object... params) {
         gMap = (GoogleMap) params[0];
         url = (String) params[1];
+        userInfo = (UserInfo) params[2];
 
         try {
             URL myurl = new URL(url);
@@ -81,7 +89,6 @@ public class GetNearbyPlace extends AsyncTask<Object,String,String> {
                 String vicinityObj = nameObj.getString("vicinity");
                 String rating = nameObj.getString("rating");
                 String user_ratings_total = nameObj.getString("user_ratings_total");
-
                 LatLng latLng = new LatLng(Double.parseDouble(latitude), Double.parseDouble(longitude));
 
                 MarkerOptions markerOptions = new MarkerOptions();
@@ -89,12 +96,13 @@ public class GetNearbyPlace extends AsyncTask<Object,String,String> {
                 markerOptions.snippet(vicinityObj + "\nRating: " + rating + " Stars \n" + user_ratings_total + " Google reviews");
                 //markerOptions.snippet(vicinityObj);
                 markerOptions.position(latLng);
+                Marker marker = gMap.addMarker(markerOptions);
+                Bundle bundle = new Bundle();
+                bundle.putString("jsonobject", jsonObject.toString());
+                bundle.putParcelable("keyuser", userInfo);
 
-
-                gMap.addMarker(markerOptions);
-
-
-
+                //marker.setTag(jsonObject.toString());
+                marker.setTag(bundle);
             }
         } catch (JSONException e) {
             e.printStackTrace();

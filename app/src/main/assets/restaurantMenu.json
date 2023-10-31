@@ -1,0 +1,382 @@
+{
+  "restaurants": [
+    {
+      "name": "Taste of Italy",
+      "cuisine": "Italian",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Caprese Salad",
+            "description": "Tomatoes, fresh mozzarella, basil, and balsamic glaze.",
+            "price": 9.99,
+            "ingredients": ["Tomatoes", "Fresh Mozzarella", "Basil", "Balsamic Glaze"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Toasted bread topped with diced tomatoes, garlic, and olive oil.",
+            "price": 8.99,
+            "ingredients": ["Toasted Bread", "Tomatoes", "Garlic", "Olive Oil"],
+            "allergens": ["Wheat"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Chicken Alfredo",
+            "description": "Fettuccine pasta in a creamy Alfredo sauce with grilled chicken.",
+            "price": 14.99,
+            "ingredients": ["Fettuccine Pasta", "Cream", "Grilled Chicken"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Margherita Pizza",
+            "description": "Pizza with tomato sauce, mozzarella, fresh basil, and olive oil.",
+            "price": 12.99,
+            "ingredients": ["Dough", "Tomato Sauce", "Mozzarella", "Basil", "Olive Oil"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Veal Marsala",
+            "description": "Tender veal in a Marsala wine sauce with mushrooms.",
+            "price": 18.99,
+            "ingredients": ["Veal", "Marsala Wine", "Mushrooms"],
+            "allergens": ["Alcohol"]
+          },
+          {
+            "name": "Lobster Ravioli",
+            "description": "Homemade ravioli stuffed with lobster and served with a creamy tomato sauce.",
+            "price": 20.99,
+            "ingredients": ["Lobster", "Tomato Sauce", "Ravioli"],
+            "allergens": ["Dairy", "Shellfish", "Wheat"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spice of India",
+      "cuisine": "Indian",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Samosas",
+            "description": "Crispy pastry filled with spiced potatoes and peas.",
+            "price": 7.99,
+            "ingredients": ["Potatoes", "Peas", "Spices"],
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Paneer Tikka",
+            "description": "Cubes of paneer marinated and grilled to perfection.",
+            "price": 9.99,
+            "ingredients": ["Paneer", "Yogurt", "Spices"],
+            "allergens": ["Dairy"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Chicken Tikka Masala",
+            "description": "Chicken pieces cooked in a rich tomato and cream sauce.",
+            "price": 15.99,
+            "ingredients": ["Chicken", "Tomato Sauce", "Cream"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Vegetable Biryani",
+            "description": "Fragrant basmati rice with mixed vegetables and aromatic spices.",
+            "price": 12.99,
+            "ingredients": ["Basmati Rice", "Mixed Vegetables", "Spices"],
+            "allergens": []
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Lamb Rogan Josh",
+            "description": "Tender lamb in a rich and aromatic curry sauce.",
+            "price": 17.99,
+            "ingredients": ["Lamb", "Spices", "Yogurt"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Malai Kofta",
+            "description": "Vegetable dumplings in a creamy tomato-based gravy.",
+            "price": 16.99,
+            "ingredients": ["Vegetable Dumplings", "Tomato Sauce", "Cream"],
+            "allergens": ["Dairy"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Haven",
+      "cuisine": "Mexican",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Guacamole",
+            "description": "Freshly made guacamole with ripe avocados and lime.",
+            "price": 6.99,
+            "ingredients": ["Avocado", "Tomato", "Onion", "Lime"],
+            "allergens": []
+          },
+          {
+            "name": "Queso Fundido",
+            "description": "Melted cheese with chorizo, served with tortillas.",
+            "price": 8.99,
+            "ingredients": ["Melted Cheese", "Chorizo", "Tortillas"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Tacos al Pastor",
+            "description": "Marinated pork tacos with pineapple, onion, and cilantro.",
+            "price": 10.99,
+            "ingredients": ["Marinated Pork", "Pineapple", "Onion", "Cilantro"],
+            "allergens": ["Soy", "Wheat"]
+          },
+          {
+            "name": "Enchiladas Verdes",
+            "description": "Corn tortillas filled with chicken, cheese, and topped with green salsa.",
+            "price": 13.99,
+            "ingredients": ["Corn Tortillas", "Chicken", "Cheese", "Green Salsa"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Mole Poblano",
+            "description": "Chicken in a rich and complex chocolate-based sauce.",
+            "price": 16.99,
+            "ingredients": ["Chicken", "Chocolate Sauce", "Spices"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Tres Leches Cake",
+            "description": "Moist sponge cake soaked in three types of milk and topped with whipped cream.",
+            "price": 7.99,
+            "ingredients": ["Sponge Cake", "Milk", "Whipped Cream"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "American Delight",
+      "cuisine": "American",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Chicken Wings",
+            "description": "Crispy chicken wings with your choice of sauce.",
+            "price": 10.99,
+            "ingredients": ["Chicken Wings", "Sauce"],
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Loaded Potato Skins",
+            "description": "Potato skins topped with cheese, bacon, and sour cream.",
+            "price": 8.99,
+            "ingredients": ["Potato Skins", "Cheese", "Bacon", "Sour Cream"],
+            "allergens": ["Dairy"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Classic BLT Sandwich",
+            "description": "Bacon, lettuce, and tomato on toasted bread.",
+            "price": 9.99,
+            "ingredients": ["Bacon", "Lettuce", "Tomato", "Bread"],
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Grilled Cheese Sandwich",
+            "description": "Melted cheese between slices of grilled bread.",
+            "price": 7.99,
+            "ingredients": ["Cheese", "Bread"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "BBQ Ribs",
+            "description": "Tender BBQ ribs served with coleslaw and cornbread.",
+            "price": 15.99,
+            "ingredients": ["BBQ Ribs", "Coleslaw", "Cornbread"],
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Grilled Salmon",
+            "description": "Grilled salmon fillet with lemon butter sauce.",
+            "price": 18.99,
+            "ingredients": ["Salmon", "Lemon Butter Sauce"],
+            "allergens": ["Fish", "Dairy"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Greek Feast",
+      "cuisine": "Greek",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Spanakopita",
+            "description": "Flaky pastry filled with spinach and feta cheese.",
+            "price": 9.99,
+            "ingredients": ["Pastry", "Spinach", "Feta Cheese"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Tzatziki",
+            "description": "Yogurt and cucumber dip with garlic and dill.",
+            "price": 7.99,
+            "ingredients": ["Yogurt", "Cucumber", "Garlic", "Dill"],
+            "allergens": ["Dairy"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Greek Salad",
+            "description": "Fresh salad with tomatoes, cucumbers, olives, and feta cheese.",
+            "price": 11.99,
+            "ingredients": ["Tomatoes", "Cucumbers", "Olives", "Feta Cheese"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Gyros Sandwich",
+            "description": "Slices of seasoned meat in pita bread with tzatziki sauce.",
+            "price": 12.99,
+            "ingredients": ["Seasoned Meat", "Pita Bread", "Tzatziki Sauce"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Moussaka",
+            "description": "Layered dish with eggplant, ground meat, and bechamel sauce.",
+            "price": 14.99,
+            "ingredients": ["Eggplant", "Ground Meat", "Bechamel Sauce"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Grilled Octopus",
+            "description": "Tender grilled octopus with olive oil and lemon.",
+            "price": 16.99,
+            "ingredients": ["Octopus", "Olive Oil", "Lemon"],
+            "allergens": ["Fish"]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spicy Thai Delight",
+      "cuisine": "Thai",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Spring Rolls",
+            "description": "Crispy spring rolls with a sweet chili dipping sauce.",
+            "price": 7.99,
+            "ingredients": ["Rice Paper", "Vegetables", "Sweet Chili Sauce"],
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Tom Yum Soup",
+            "description": "Spicy and sour soup with shrimp, mushrooms, and lemongrass.",
+            "price": 9.99,
+            "ingredients": ["Shrimp", "Mushrooms", "Lemongrass", "Spices"],
+            "allergens": ["Shellfish"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Pad Thai",
+            "description": "Stir-fried rice noodles with shrimp, tofu, and peanuts.",
+            "price": 13.99,
+            "ingredients": ["Rice Noodles", "Shrimp", "Tofu", "Peanuts"],
+            "allergens": ["Peanuts", "Shellfish"]
+          },
+          {
+            "name": "Green Curry",
+            "description": "Green curry with chicken, bamboo shoots, and Thai eggplant.",
+            "price": 14.99,
+            "ingredients": ["Chicken", "Green Curry Paste", "Bamboo Shoots", "Thai Eggplant"],
+            "allergens": []
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Tom Kha Gai",
+            "description": "Coconut soup with chicken, galangal, and lime leaves.",
+            "price": 15.99,
+            "ingredients": ["Chicken", "Coconut Milk", "Galangal", "Lime Leaves"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Panang Curry",
+            "description": "Panang curry with beef, bell peppers, and kaffir lime leaves.",
+            "price": 16.99,
+            "ingredients": ["Beef", "Panang Curry Paste", "Bell Peppers", "Kaffir Lime Leaves"],
+            "allergens": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sabor Español",
+      "cuisine": "Spanish",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Patatas Bravas",
+            "description": "Fried potatoes with spicy tomato sauce and aioli.",
+            "price": 8.99,
+            "ingredients": ["Potatoes", "Tomato Sauce", "Aioli"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Gazpacho",
+            "description": "Chilled tomato and vegetable soup with a hint of garlic.",
+            "price": 7.99,
+            "ingredients": ["Tomatoes", "Cucumbers", "Garlic"],
+            "allergens": []
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Paella",
+            "description": "Traditional saffron-infused rice dish with seafood and chicken.",
+            "price": 17.99,
+            "ingredients": ["Rice", "Seafood", "Chicken", "Saffron"],
+            "allergens": ["Shellfish"]
+          },
+          {
+            "name": "Tortilla Española",
+            "description": "Spanish omelette with potatoes and onions.",
+            "price": 11.99,
+            "ingredients": ["Eggs", "Potatoes", "Onions"],
+            "allergens": ["Eggs"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Paella Valenciana",
+            "description": "Paella with saffron-infused rice, rabbit, and green beans.",
+            "price": 19.99,
+            "ingredients": ["Rice", "Rabbit", "Green Beans", "Saffron"],
+            "allergens": []
+          },
+          {
+            "name": "Calamares a la Romana",
+            "description": "Fried squid rings with lemon and aioli.",
+            "price": 15.99,
+            "ingredients": ["Squid", "Lemon", "Aioli"],
+            "allergens": ["Dairy"]
+          }
+        ]
+      }
+    }
+  ]
+}

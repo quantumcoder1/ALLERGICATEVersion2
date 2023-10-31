@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewMenuItemsPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4147D3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewRestaurantPhoto"
+            android:layout_width="221dp"
+            android:layout_height="137dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+        <TextView
+            android:id="@+id/textViewAllergyIndex"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="8dp"
+            android:text="Allergy Rating:"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textVeganRating"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBarAllergy"
+            app:layout_constraintStart_toStartOf="@+id/textVeganRating"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewRestaurantPhoto" />
+
+        <TextView
+            android:id="@+id/textVeganRating"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="38dp"
+            android:text="Vegan Rating:"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBarVegan"
+            app:layout_constraintHorizontal_bias="0.416"
+            app:layout_constraintStart_toStartOf="@+id/textVegetarianRating"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAllergyIndex" />
+
+        <TextView
+            android:id="@+id/textVegetarianRating"
+            android:layout_width="108dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Vegetarian Rating:"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBarVegetarian"
+            app:layout_constraintHorizontal_bias="0.192"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVeganRating"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <RatingBar
+            android:id="@+id/ratingBarAllergy"
+            android:layout_width="245dp"
+            android:layout_height="45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewRestaurantPhoto" />
+
+        <RatingBar
+            android:id="@+id/ratingBarVegan"
+            android:layout_width="245dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarAllergy" />
+
+        <RatingBar
+            android:id="@+id/ratingBarVegetarian"
+            android:layout_width="245dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarVegan" />
+
+        <ScrollView
+            android:id="@+id/scrollViewMenuItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarVegetarian">
+
+            <!--            <?xml version="1.0" encoding="utf-8"?>-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                tools:context=".MainActivity">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/menuItemContainer"-->
+            <!--                android:layout_width="409dp"-->
+            <!--                android:layout_height="304dp"-->
+            <!--                android:orientation="vertical"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/textViewAllergyIndex">-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    android:id="@+id/contentContainer"></LinearLayout>-->
+            <!--            </LinearLayout>-->
+        </ScrollView>
+
+        <!-- Additional UI elements can be added here -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="#4147D3"-->
+
+<!--    tools:context=".RestaurantInformation">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewTitle"-->
+<!--        android:layout_width="318dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="34sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.395"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.031" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivPhoto"-->
+<!--        android:layout_width="306dp"-->
+<!--        android:layout_height="230dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textViewTitle"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewAllergyIndex"-->
+<!--        android:layout_width="186dp"-->
+<!--        android:layout_height="47dp"-->
+<!--        android:text="Allergy Index:"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.168"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ivPhoto"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewAllergyIndexValue"-->
+<!--        android:layout_width="53dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:layout_marginBottom="307dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textViewAllergyIndex"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ivPhoto"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

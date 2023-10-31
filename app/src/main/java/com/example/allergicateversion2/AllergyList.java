@@ -60,7 +60,7 @@ public class AllergyList extends AppCompatActivity {
                     }
                 }
                 UserInfo user = getIntent().getParcelableExtra("keyuser");
-                user.addAllergyList(allergyList);
+//                user.addAllergyList(allergyList);
                 DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("users");
                 String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
                 usersRef.child(userId).child("allergyList").setValue(allergyList);

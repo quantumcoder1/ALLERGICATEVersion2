@@ -53,6 +53,14 @@
         android:theme="@style/Theme.ALLERGICATEVersion2"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.allergicateversion2.RestaurantInformation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.allergicateversion2.RestaurantDetailsScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.ALLERGICATEVersion2.NoActionBar" />
+        <activity
             android:name="com.example.allergicateversion2.RestaurantInfo"
             android:exported="false" />
         <activity

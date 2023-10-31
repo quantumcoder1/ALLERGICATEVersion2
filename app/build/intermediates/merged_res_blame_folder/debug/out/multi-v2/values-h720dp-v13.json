@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-38:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-37:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/nileshsathyanarayanan/.gradle/caches/transforms-3/5815f17bf5b82e8ee5346a6b6869f837/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\TDPUser\\.gradle\\caches\\transforms-3\\80605cc2cfb8a50001822c6c8bc17a1f\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

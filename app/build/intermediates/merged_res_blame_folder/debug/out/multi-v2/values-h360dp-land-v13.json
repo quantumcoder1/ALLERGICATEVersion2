@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-38:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-37:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/nileshsathyanarayanan/.gradle/caches/transforms-3/75a1c0f2b09d2197eac62fde5ddc8cbd/transformed/material-1.8.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\TDPUser\\.gradle\\caches\\transforms-3\\a6e583e4943ec64c87e4464795710ffd\\transformed\\material-1.8.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

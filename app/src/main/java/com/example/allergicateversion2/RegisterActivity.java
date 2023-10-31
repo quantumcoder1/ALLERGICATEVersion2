@@ -100,6 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
                                             Toast.LENGTH_SHORT).show();
                                     DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("users");
                                     String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
                                     UserInfo user = new UserInfo(userId, inputUsername, inputEmail, inputPassword);
                                     usersRef.child(userId).setValue(user);
                                     Intent intent = new Intent(getApplicationContext(), AllergyList.class);

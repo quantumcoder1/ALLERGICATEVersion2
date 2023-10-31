@@ -8,6 +8,7 @@ import android.location.Geocoder;
 import android.location.Location;
 //import android.location.LocationRequest;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -18,7 +19,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -52,21 +55,43 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
     Button btnZoomIn;
     Button btnZoomOut;
     Button backArrow2;
+
+    Button btnRestaurants;
     ImageView backArrow3;
     private PlacesClient placesClient;
     private FusedLocationProviderClient fusedLocationProviderClient;
     private List<Field> placeFields;
     private long lastClickTime = 0;
+    private UserInfo user;
 
-
-    @SuppressLint({"WrongViewCast", "MissingInflatedId"})
+    private Fragment fragmentMap;
+    private Fragment fragmentRestaurantInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_results_map);
-        map = findViewById(R.id.map);
-        backArrow2 = findViewById(R.id.btnBack);
-//        backArrow3 = findViewById(R.id.backArrow3);
+        //map = findViewById(R.id.map);
+        backArrow2 = findViewById(R.id.backArrow2);
+//        btnRestaurants = findViewById(R.id.btnRestaurants);
+
+        fragmentMap = MapFragment.newInstance();
+        fragmentRestaurantInfo = new RestaurantsInfoFragment();
+
+        String locationKey = getIntent().getStringExtra("locationKey");
+        this.user = getIntent().getParcelableExtra("keyuser");
+
+        Bundle bundle = new Bundle();
+        bundle.putString("locationKey", locationKey); // Replace with your data
+        bundle.putParcelable("keyuser", this.user);
+
+        // Attach the Bundle to the fragment as arguments
+        fragmentMap.setArguments(bundle);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.mapFragmentContainer, fragmentMap).commit();
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.markerInfoFragmentContainer, fragmentRestaurantInfo).commit();
+
+        //        backArrow3 = findViewById(R.id.backArrow3);
         backArrow2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,9 +100,16 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
                 finish();
             }
         });
+
+//        btnRestaurants.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                findRestaurants(view);
+//            }
+//        });
 //        geocoder = new Geocoder(this, Locale.getDefault());
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync((OnMapReadyCallback) this);
+        //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        //mapFragment.getMapAsync((OnMapReadyCallback) this);
 //        Places.initialize(getApplicationContext(), "AIzaSyAXrKBr0Z5qfRC-F-eZH_Rxbbpb4IHuwo4");
 //        placesClient = Places.createClient(this);
     }
@@ -93,7 +125,7 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
                 Address address = addresses.get(0);
                 latLng = new LatLng(address.getLatitude(), address.getLongitude());
 //                gMap.addMarker(new MarkerOptions().position(latLng).title(location.toUpperCase()));
-                gMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
+                this.gMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
             } else {
                 Toast.makeText(this, "Location not found", Toast.LENGTH_SHORT).show();
             }
@@ -175,6 +207,16 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
 //        }
 //    }
 
+    @Override
+    public void onBackPressed() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        if (fragmentManager.getBackStackEntryCount() > 0) {
+            fragmentManager.popBackStack(); // Pop the back stack to return to the previous fragment
+        } else {
+            super.onBackPressed(); // If the back stack is empty, proceed with the default behavior (e.g., exiting the activity)
+        }
+    }
+
     public void onMapReady(GoogleMap googleMap) {
         this.gMap = googleMap;
 //        client = new GoogleApiClient.Builder(this).addApi(LocationServices.API).addConnectionCallbacks((GoogleApiClient.ConnectionCallbacks) this).addOnConnectionFailedListener((GoogleApiClient.OnConnectionFailedListener) this).build();
@@ -202,24 +244,23 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
             }
         });
 
+
         // Handle marker click events
         this.gMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
-                long currentClickTime = System.currentTimeMillis();
+//                long currentClickTime = System.currentTimeMillis();
+//                View markerInfoView = getLayoutInflater().inflate(R.id.markerInfoFragment, null);
 
                 // Check if the time elapsed since the last click is within the double-click threshold
-                if (currentClickTime - lastClickTime < 500) { // Adjust the threshold as needed (e.g., 500 milliseconds for a double-click)
+//                if (currentClickTime - lastClickTime < 500) { // Adjust the threshold as needed (e.g., 500 milliseconds for a double-click)
                     // Double-click detected, start a new activity
-                    Intent intent = new Intent(SearchResultsMap.this, RestaurantInfo.class);
-                    startActivity(intent);
-                    lastClickTime = 0; // Reset the last click time
-                    return true; // Return true to consume the event
-                } else {
-                    // Single-click detected, store the current click time
-                    lastClickTime = currentClickTime;
-                    return false; // Return false to allow default marker behavior
-                }
+//                MarkerInfoFragment markerInfoFragment = new MarkerInfoFragment();
+//                getSupportFragmentManager().beginTransaction()
+//                        .replace(R.id.markerInfoFragment, markerInfoFragment)
+//                        .addToBackStack(null)
+//                        .commit();
+                return true;
             }
         });
 
