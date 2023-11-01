@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-37:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-49:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\TDPUser\\.gradle\\caches\\transforms-3\\d90cd841e7f83f541051a74d1dd2c693\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",

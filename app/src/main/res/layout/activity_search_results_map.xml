@@ -20,45 +20,31 @@
         android:id="@+id/mapFragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="212dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/backArrow2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="312dp"
-            android:layout_marginRight="312dp"
-            android:layout_marginBottom="474dp"
-            android:background="@drawable/backarrowblack"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:tintMode="src_in"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-<!--    </FrameLayout>-->
-
-    <FrameLayout
-        android:id="@+id/markerInfoFragmentContainer"
-        android:layout_width="391dp"
-        android:layout_height="210dp"
-        android:layout_marginTop="1dp"
+    <Button
+        android:id="@+id/backArrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="474dp"
+        android:background="@drawable/backarrowblack"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:tintMode="src_in"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapFragmentContainer"
-        app:layout_constraintVertical_bias="0.961" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    </FrameLayout>-->
 
     <!--    <Button-->
 <!--        android:id="@+id/btnRestaurants"-->

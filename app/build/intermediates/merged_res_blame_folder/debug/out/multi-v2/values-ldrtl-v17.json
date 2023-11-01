@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-37:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-49:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\TDPUser\\.gradle\\caches\\transforms-3\\a6e583e4943ec64c87e4464795710ffd\\transformed\\material-1.8.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",

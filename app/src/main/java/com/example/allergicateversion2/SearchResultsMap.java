@@ -89,7 +89,7 @@ public class SearchResultsMap extends FragmentActivity implements OnMapReadyCall
 
         getSupportFragmentManager().beginTransaction().replace(R.id.mapFragmentContainer, fragmentMap).commit();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.markerInfoFragmentContainer, fragmentRestaurantInfo).commit();
+//        getSupportFragmentManager().beginTransaction().replace(R.id.markerInfoFragmentContainer, fragmentRestaurantInfo).commit();
 
         //        backArrow3 = findViewById(R.id.backArrow3);
         backArrow2.setOnClickListener(new View.OnClickListener() {

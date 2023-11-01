@@ -9,8 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -21,6 +24,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
+import com.google.android.material.tabs.TabLayout;
 
 import org.json.JSONObject;
 
@@ -44,6 +48,8 @@ public class MapFragment extends Fragment {
     private String mParam2;
 
     UserInfo userInfo;
+
+
 
     public MapFragment() {
         // Required empty public constructor
@@ -121,6 +127,7 @@ public class MapFragment extends Fragment {
                     // Pass the Bundle to another fragment or activity
                      markerInfoFragment.setArguments(bundle);
                     Intent intent = new Intent(getContext(), RestaurantInformation.class);
+//                    Intent intent = new Intent(getActivity().getApplicationContext(), TRestaurantInformation.class);
                     intent.putExtra("title", marker.getTitle());
                     intent.putExtra("jsonObject", jsonObject);
                     intent.putExtra("bundle", bundle);
@@ -132,10 +139,10 @@ public class MapFragment extends Fragment {
 //                        TextView textView = getView().findViewById(R.id.tvRestaurantTitle2);
 //                        textView.append(marker.getTitle());
 
-                    getParentFragmentManager().beginTransaction()
-                            .replace(R.id.markerInfoFragmentContainer, markerInfoFragment)
-                            .addToBackStack(null)
-                            .commit();
+//                    getParentFragmentManager().beginTransaction()
+//                            .replace(R.id.markerInfoFragmentContainer, markerInfoFragment)
+//                            .addToBackStack(null)
+//                            .commit();
                         return false;
                     }
                 });

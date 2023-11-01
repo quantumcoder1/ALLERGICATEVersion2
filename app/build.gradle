@@ -43,6 +43,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.2.2'
     implementation 'com.google.android.gms:play-services-auth:20.6.0'
     implementation 'androidx.wear.tiles:tiles-material:1.1.0-alpha04'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
 //    implementation 'androidx.room:room-compiler:2.4.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

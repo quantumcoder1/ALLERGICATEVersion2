@@ -10,6 +10,9 @@ import android.location.Geocoder;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -40,6 +43,17 @@ public class HomeScreen extends AppCompatActivity {
     TextInputEditText cusine_bar;
     UserInfo user;
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.restaurantinformationmenu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
     //    @SuppressLint("WrongViewCast")
     @SuppressLint("MissingInflatedId")
     @Override

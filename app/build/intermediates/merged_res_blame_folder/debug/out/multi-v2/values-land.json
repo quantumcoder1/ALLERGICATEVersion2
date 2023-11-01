@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-37:/values-land/values-land.xml",
+            "outputFile": "com.example.allergicateversion2.app-mergeDebugResources-49:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\TDPUser\\.gradle\\caches\\transforms-3\\a6e583e4943ec64c87e4464795710ffd\\transformed\\material-1.8.0\\res\\values-land\\values-land.xml",
@@ -37,9 +37,9 @@
                     "from": {
                         "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "17,60",
+                        "startOffsets": "16,58",
                         "endColumns": "41,42",
-                        "endOffsets": "54,98"
+                        "endOffsets": "53,96"
                     },
                     "to": {
                         "startLines": "5,24",
