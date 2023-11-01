@@ -121,6 +121,7 @@ public class MapFragment extends Fragment {
                     bundle.putDouble("longitude", marker.getPosition().longitude);
                     bundle.putString("title", marker.getTitle());
                     bundle.putString("snippet", marker.getSnippet());
+
 //                    String jsonObject = marker.getTag().toString();
                     bundle.putParcelable("keyuser", userInfo);
                     bundle.putString("jsonObject", jsonObject);
@@ -134,16 +135,7 @@ public class MapFragment extends Fragment {
 
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
-
-//                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-//                        TextView textView = getView().findViewById(R.id.tvRestaurantTitle2);
-//                        textView.append(marker.getTitle());
-
-//                    getParentFragmentManager().beginTransaction()
-//                            .replace(R.id.markerInfoFragmentContainer, markerInfoFragment)
-//                            .addToBackStack(null)
-//                            .commit();
-                        return false;
+                    return false;
                     }
                 });
 

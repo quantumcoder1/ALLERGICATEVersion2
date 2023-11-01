@@ -82,7 +82,7 @@ public class RestaurantInformation extends AppCompatActivity {
                 JSONArray restaurants = menuParser.getRestaurants();
                 ArrayList<String> allergyList = userInfo.getAllergyList();
                 int restaurantIndex = this.jsonObject.getString("name").toString().length() % restaurants.length();
-                JSONObject menuItems = menuParser.getRestaurantMenu(restaurantIndex);
+                JSONObject menuItems = menuParser.getRestaurantMenu(bundle.getString("title"));
                 JSONArray filteredMenuItems = menuParser.queryMenuItemsWithoutAllergens(allergyList, menuItems);
                 int menuItemCount = menuParser.getMenuItemCount(menuItems);
                 int filterdMenuItemCount = filteredMenuItems.length();
@@ -95,14 +95,6 @@ public class RestaurantInformation extends AppCompatActivity {
                 recyclerView.setLayoutManager(layoutManager);
 
                 List<MenuItem> menuItemsTemp = new ArrayList<>();
-//                for (int i = 0; i < 20; i++) {
-//                    menuItemsTemp.add(new MenuItem("Item " + i));
-//                }
-// Add more menu items here
-
-//                MenuItemAdapter adapter = new MenuItemAdapter(this, menuItemsTemp);
-//                recyclerView.setAdapter(adapter);
-
 
                 for (String menuType : new String[]{"appetizers", "lunch", "dinner"}) {
                     if (menuItems.has(menuType)) {
@@ -123,28 +115,9 @@ public class RestaurantInformation extends AppCompatActivity {
                             }
 
                             menuItemsTemp.add(new MenuItem(name, description, allergens));
-//                            TextView textViewName = new TextView(this);
-//                            textViewName.setText(name);
-//                            textViewName.setTextSize(12);
-//                            textViewName.setTextColor(Color.WHITE);
-//                            textViewName.setLayoutParams(new LinearLayout.LayoutParams(
-//                                    LinearLayout.LayoutParams.MATCH_PARENT,
-//                                    LinearLayout.LayoutParams.WRAP_CONTENT));
-//                            linearLayout.addView(textView);
-//
-//                            TextView textView = new TextView(this);
-//                            textView.setText(name);
-//                            textView.setTextSize(12);
-//                            textView.setTextColor(Color.WHITE);
-//                            textView.setLayoutParams(new LinearLayout.LayoutParams(
-//                                    LinearLayout.LayoutParams.MATCH_PARENT,
-//                                    LinearLayout.LayoutParams.WRAP_CONTENT));
-//                            linearLayout.addView(textView);
-
                         }
                     }
                 }
-
                 MenuItemAdapter adapter = new MenuItemAdapter(this, menuItemsTemp);
                 recyclerView.setAdapter(adapter);
             } catch (JSONException e) {
@@ -168,8 +141,14 @@ public class RestaurantInformation extends AppCompatActivity {
                 case "Peanut":{
                     return R.drawable.peanut;
                 }
+                case "Dairy":{
+                    return R.drawable.milk;
+                }
+                case "Cheese":{
+                    return R.drawable.cheese;
+                }
                 default:{
-                    return R.drawable.egg;
+                    return R.drawable.allergens;
                 }
             }
     }

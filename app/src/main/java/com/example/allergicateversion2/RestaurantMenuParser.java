@@ -49,10 +49,26 @@ public class RestaurantMenuParser {
         return this.jsonObject.getJSONArray("restaurants");
     }
 
+    public JSONObject getRestaurant(String name) throws JSONException {
+        JSONArray restaurants = this.jsonObject.getJSONArray("restaurants");
+        for (int i = 0; i < restaurants.length(); i++){
+            JSONObject restaurant = restaurants.getJSONObject(i);
+            if (restaurant.getString("name").equals(name)){
+                return restaurant;
+            }
+        }
+        return restaurants.getJSONObject(0);
+    }
     public JSONObject getRestaurantMenu(int restaurantIndex) throws JSONException {
 
         JSONArray restaurants = this.jsonObject.getJSONArray("restaurants");
         JSONObject restaurant = restaurants.getJSONObject(restaurantIndex);
+        JSONObject menu = restaurant.getJSONObject("menu");
+        return menu;
+    }
+
+    public JSONObject getRestaurantMenu(String name) throws JSONException {
+        JSONObject restaurant = this.getRestaurant(name);
         JSONObject menu = restaurant.getJSONObject("menu");
         return menu;
     }
@@ -64,6 +80,7 @@ public class RestaurantMenuParser {
         JSONArray reviews = restaurant.getJSONArray("reviews");
         return reviews;
     }
+
 
     public int getMenuItemCount(JSONObject menuItems) throws JSONException {
         int menuItemsCount = 0;

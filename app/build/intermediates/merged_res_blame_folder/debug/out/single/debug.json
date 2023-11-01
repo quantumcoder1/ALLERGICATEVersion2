@@ -12,12 +12,12 @@
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\activity_trestaurant_information.xml"
     },
     {
-        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_email.xml.flat",
-        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\drawable\\email.xml"
-    },
-    {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_email.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\drawable\\email.xml"
     },
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_activity_home_screen.xml.flat",
@@ -34,10 +34,6 @@
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_activity_restaurant_info.xml.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\activity_restaurant_info.xml"
-    },
-    {
-        "merged": "com.example.allergicateversion2.app-merged_res-51:/layout_activity_reviews.xml.flat",
-        "source": "com.example.allergicateversion2.app-main-53:/layout/activity_reviews.xml"
     },
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_btn_bg.xml.flat",
@@ -114,6 +110,10 @@
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_fragment_restaurant.xml.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\fragment_restaurant.xml"
+    },
+    {
+        "merged": "com.example.allergicateversion2.app-merged_res-51:/drawable_cheese.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-53:/drawable/cheese.xml"
     },
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\mipmap-mdpi_ic_launcher_round.webp.flat",
