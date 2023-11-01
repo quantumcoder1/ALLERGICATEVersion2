@@ -103,6 +103,7 @@ public class RestaurantInformation extends AppCompatActivity {
 //                MenuItemAdapter adapter = new MenuItemAdapter(this, menuItemsTemp);
 //                recyclerView.setAdapter(adapter);
 
+
                 for (String menuType : new String[]{"appetizers", "lunch", "dinner"}) {
                     if (menuItems.has(menuType)) {
                         JSONArray menuItemsArray = menuItems.getJSONArray(menuType);

@@ -57,6 +57,14 @@ public class RestaurantMenuParser {
         return menu;
     }
 
+    public JSONArray getRestaurantReviews(int restaurantIndex) throws JSONException {
+
+        JSONArray restaurants = this.jsonObject.getJSONArray("restaurants");
+        JSONObject restaurant = restaurants.getJSONObject(restaurantIndex);
+        JSONArray reviews = restaurant.getJSONArray("reviews");
+        return reviews;
+    }
+
     public int getMenuItemCount(JSONObject menuItems) throws JSONException {
         int menuItemsCount = 0;
         for (String menuType : new String[]{"appetizers", "lunch", "dinner"}) {

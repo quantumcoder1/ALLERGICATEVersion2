@@ -52,7 +52,19 @@
             "allergens": ["Dairy", "Shellfish", "Wheat"]
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "Alice",
+          "rating": 4,
+          "comment": "Delicious food, but the service was a bit slow."
+        },
+        {
+          "user": "Bob",
+          "rating": 5,
+          "comment": "Fantastic Italian cuisine. Highly recommended!"
+        }
+      ]
     },
     {
       "name": "Spice of India",
@@ -106,7 +118,19 @@
             "allergens": ["Dairy"]
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "Alice",
+          "rating": 4,
+          "comment": "Delicious Indian cuisine. Samosas are a must-try!"
+        },
+        {
+          "user": "Bob",
+          "rating": 5,
+          "comment": "Outstanding flavors. Chicken Tikka Masala is my favorite!"
+        }
+      ]
     },
     {
       "name": "Taco Haven",
@@ -160,7 +184,24 @@
             "allergens": ["Dairy", "Wheat"]
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "Emily",
+          "rating": 5,
+          "comment": "Fantastic guacamole! Love the freshness."
+        },
+        {
+          "user": "John",
+          "rating": 4,
+          "comment": "The Tacos al Pastor were a great choice. Authentic flavors!"
+        },
+        {
+          "user": "Maria",
+          "rating": 5,
+          "comment": "Enchiladas Verdes were delicious. Will definitely come back."
+        }
+      ]
     },
     {
       "name": "American Delight",
@@ -214,7 +255,24 @@
             "allergens": ["Fish", "Dairy"]
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "David",
+          "rating": 4,
+          "comment": "Great selection of sandwiches. The BLT is a classic!"
+        },
+        {
+          "user": "Sarah",
+          "rating": 5,
+          "comment": "The BBQ Ribs are finger-licking good. Will come back for more!"
+        },
+        {
+          "user": "Mark",
+          "rating": 3,
+          "comment": "The Grilled Cheese Sandwich was just okay, not too exciting."
+        }
+      ]
     },
     {
       "name": "Greek Feast",
@@ -268,7 +326,24 @@
             "allergens": ["Fish"]
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "Sophia",
+          "rating": 5,
+          "comment": "Absolutely loved the Spanakopita! Authentic Greek flavors."
+        },
+        {
+          "user": "Nikos",
+          "rating": 4,
+          "comment": "The Gyros Sandwich was tasty. Reminds me of Greece."
+        },
+        {
+          "user": "Elena",
+          "rating": 5,
+          "comment": "Moussaka was incredible. Will be back for more Greek feasts!"
+        }
+      ]
     },
     {
       "name": "Spicy Thai Delight",
@@ -322,7 +397,14 @@
             "allergens": []
           }
         ]
-      }
+      },
+      "reviews": [
+        {
+          "user": "Lisa",
+          "rating": 5,
+          "comment": "The Tom Kha Gai soup is to die for! Creamy and flavorful."
+        }
+      ]
     },
     {
       "name": "Sabor Español",
@@ -374,6 +456,165 @@
             "price": 15.99,
             "ingredients": ["Squid", "Lemon", "Aioli"],
             "allergens": ["Dairy"]
+          }
+        ]
+      },
+      "reviews": [
+        {
+          "user": "Maria",
+          "rating": 4,
+          "comment": "The Paella Valenciana was authentic and delicious."
+        },
+        {
+          "user": "Carlos",
+          "rating": 5,
+          "comment": "Patatas Bravas are the best I've had outside of Spain!"
+        },
+        {
+          "user": "Isabella",
+          "rating": 4,
+          "comment": "Gazpacho is a refreshing start to the meal."
+        }
+      ]
+    },
+    {
+      "name": "Mommy's Kitchen Sammamish",
+      "cuisine": "American",
+      "menu": {
+        "breakfast": [
+          {
+            "name": "Pancakes",
+            "description": "Fluffy pancakes served with maple syrup.",
+            "price": 6.99,
+            "ingredients": ["Pancakes", "Maple Syrup"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Omelette",
+            "description": "Custom omelette with your choice of fillings.",
+            "price": 8.99,
+            "ingredients": ["Eggs", "Choice of Fillings"],
+            "allergens": ["Eggs"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Grilled Cheese Sandwich",
+            "description": "Melted cheese between slices of grilled bread.",
+            "price": 7.99,
+            "ingredients": ["Cheese", "Bread"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Chicken Tenders",
+            "description": "Crispy chicken tenders served with a side of ranch dressing.",
+            "price": 9.99,
+            "ingredients": ["Chicken Tenders", "Ranch Dressing"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Spaghetti Bolognese",
+            "description": "Spaghetti with a rich meat sauce and Parmesan cheese.",
+            "price": 12.99,
+            "ingredients": ["Spaghetti", "Meat Sauce", "Parmesan Cheese"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Grilled Salmon",
+            "description": "Grilled salmon fillet with lemon butter sauce.",
+            "price": 14.99,
+            "ingredients": ["Salmon", "Lemon Butter Sauce"],
+            "allergens": ["Fish", "Dairy"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "rating": 4,
+            "comment": "The pancakes are always fluffy and delicious!"
+          },
+          {
+            "user": "Sarah",
+            "rating": 5,
+            "comment": "I love their omelettes with a variety of fillings."
+          },
+          {
+            "user": "Michael",
+            "rating": 4,
+            "comment": "The Grilled Cheese Sandwich is a comfort food favorite."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sammamish Cafe & Spirit",
+      "cuisine": "American",
+      "menu": {
+        "breakfast": [
+          {
+            "name": "Classic Breakfast",
+            "description": "Scrambled eggs, bacon, and toast with butter and jam.",
+            "price": 9.99,
+            "ingredients": ["Scrambled Eggs", "Bacon", "Toast", "Butter", "Jam"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Belgian Waffles",
+            "description": "Golden waffles topped with whipped cream and fresh berries.",
+            "price": 8.99,
+            "ingredients": ["Waffles", "Whipped Cream", "Berries"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "lunch": [
+          {
+            "name": "Chicken Caesar Salad",
+            "description": "Fresh romaine lettuce with grilled chicken and Caesar dressing.",
+            "price": 10.99,
+            "ingredients": ["Romaine Lettuce", "Grilled Chicken", "Caesar Dressing"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Turkey Club Sandwich",
+            "description": "Triple-decker sandwich with turkey, bacon, lettuce, and tomato.",
+            "price": 11.99,
+            "ingredients": ["Turkey", "Bacon", "Lettuce", "Tomato", "Bread"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "dinner": [
+          {
+            "name": "Steak Dinner",
+            "description": "Grilled sirloin steak served with mashed potatoes and vegetables.",
+            "price": 19.99,
+            "ingredients": ["Sirloin Steak", "Mashed Potatoes", "Vegetables"],
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Salmon Fillet",
+            "description": "Pan-seared salmon fillet with lemon dill sauce.",
+            "price": 16.99,
+            "ingredients": ["Salmon Fillet", "Lemon Dill Sauce"],
+            "allergens": ["Fish", "Dairy"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Laura",
+            "rating": 5,
+            "comment": "The Belgian Waffles are a delightful breakfast treat."
+          },
+          {
+            "user": "David",
+            "rating": 4,
+            "comment": "The Steak Dinner is a hearty and satisfying meal."
+          },
+          {
+            "user": "Sophie",
+            "rating": 4,
+            "comment": "The Turkey Club Sandwich is a classic favorite."
           }
         ]
       }

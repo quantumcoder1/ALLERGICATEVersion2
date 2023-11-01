@@ -3623,6 +3623,7 @@ id line3
 id linear
 id linearLayout
 id linearLayoutForIcons
+id linearLayoutForRating
 id listMode
 id list_item
 id listquestion
@@ -3776,7 +3777,11 @@ id ratingBarVegetarian
 id ratio
 id rectangles
 id recyclerView
+id recyclerViewReview
 id reverseSawtooth
+id reviewDescription
+id reviewItemLayout
+id reviewItemTitle
 id right
 id rightToLeft
 id right_icon
@@ -3796,6 +3801,8 @@ id scrollIndicatorUp
 id scrollView
 id scrollViewMenuItems
 id scrollViewMenuItemsPage
+id scrollViewMenuItemsReview
+id scrollViewReviewItemsPage
 id scrollable
 id search_badge
 id search_bar
@@ -4167,6 +4174,7 @@ layout places_autocomplete_impl_fragment_overlay
 layout places_autocomplete_impl_powered_by_google
 layout places_autocomplete_impl_search_bar
 layout places_autocomplete_prediction
+layout review_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

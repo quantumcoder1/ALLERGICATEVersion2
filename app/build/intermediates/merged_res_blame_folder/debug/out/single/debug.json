@@ -20,10 +20,6 @@
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.allergicateversion2.app-merged_res-51:/layout_activity_search_results_map.xml.flat",
-        "source": "com.example.allergicateversion2.app-main-53:/layout/activity_search_results_map.xml"
-    },
-    {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_activity_home_screen.xml.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\activity_home_screen.xml"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_activity_restaurant_info.xml.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\activity_restaurant_info.xml"
+    },
+    {
+        "merged": "com.example.allergicateversion2.app-merged_res-51:/layout_activity_reviews.xml.flat",
+        "source": "com.example.allergicateversion2.app-main-53:/layout/activity_reviews.xml"
     },
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_btn_bg.xml.flat",
@@ -182,6 +182,10 @@
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_customer_reviews.xml.flat",
         "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\drawable\\customer_reviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\layout_review_item.xml.flat",
+        "source": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-main-53:\\layout\\review_item.xml"
     },
     {
         "merged": "C:\\Users\\TDPUser\\.gradle\\daemon\\8.0\\com.example.allergicateversion2.app-merged_res-51:\\drawable_facebook.xml.flat",

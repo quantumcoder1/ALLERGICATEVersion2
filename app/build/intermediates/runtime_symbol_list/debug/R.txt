@@ -3622,6 +3622,7 @@ int id line3 0x7f080113
 int id linear 0x7f080114
 int id linearLayout 0x7f080115
 int id linearLayoutForIcons 0x7f080116
+int id linearLayoutForRating 0x7f08026d
 int id listMode 0x7f080117
 int id list_item 0x7f080118
 int id listquestion 0x7f080119
@@ -3775,7 +3776,11 @@ int id ratingBarVegetarian 0x7f0801ae
 int id ratio 0x7f0801af
 int id rectangles 0x7f0801b0
 int id recyclerView 0x7f0801b1
+int id recyclerViewReview 0x7f08026b
 int id reverseSawtooth 0x7f0801b3
+int id reviewDescription 0x7f08026e
+int id reviewItemLayout 0x7f08026f
+int id reviewItemTitle 0x7f080270
 int id right 0x7f0801b5
 int id rightToLeft 0x7f0801b6
 int id right_icon 0x7f0801b7
@@ -3795,6 +3800,8 @@ int id scrollIndicatorUp 0x7f0801c4
 int id scrollView 0x7f0801c5
 int id scrollViewMenuItems 0x7f0801c6
 int id scrollViewMenuItemsPage 0x7f0801c7
+int id scrollViewMenuItemsReview 0x7f08026c
+int id scrollViewReviewItemsPage 0x7f080271
 int id scrollable 0x7f0801c8
 int id search_badge 0x7f0801c9
 int id search_bar 0x7f0801ca
@@ -4166,6 +4173,7 @@ int layout places_autocomplete_impl_fragment_overlay 0x7f0b0085
 int layout places_autocomplete_impl_powered_by_google 0x7f0b0086
 int layout places_autocomplete_impl_search_bar 0x7f0b0087
 int layout places_autocomplete_prediction 0x7f0b0088
+int layout review_item 0x7f0b008d
 int layout select_dialog_item_material 0x7f0b0089
 int layout select_dialog_multichoice_material 0x7f0b008a
 int layout select_dialog_singlechoice_material 0x7f0b008b

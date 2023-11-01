@@ -66,6 +66,7 @@ id inputnewEmail
 id lactose
 id linearLayout
 id linearLayoutForIcons
+id linearLayoutForRating
 id listquestion
 id mapFragment
 id mapFragmentContainer
@@ -83,8 +84,14 @@ id ratingBarAllergy
 id ratingBarVegan
 id ratingBarVegetarian
 id recyclerView
+id recyclerViewReview
+id reviewDescription
+id reviewItemLayout
+id reviewItemTitle
 id scrollViewMenuItems
 id scrollViewMenuItemsPage
+id scrollViewMenuItemsReview
+id scrollViewReviewItemsPage
 id search_bar
 id sesame
 id shellfish
@@ -123,6 +130,7 @@ layout fragment_restaurants_info
 layout fragment_reviews
 layout fragment_second
 layout menu_item
+layout review_item
 menu menu_scrolling
 menu menu_scrolling_activity_reviews
 menu restaurantinformationmenu
