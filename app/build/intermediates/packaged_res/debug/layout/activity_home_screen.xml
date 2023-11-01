@@ -14,19 +14,15 @@
         android:text="Welcome,"
         android:textColor="#FEFEFE"
         android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEnterCity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/search_bar"
         android:layout_width="247dp"
         android:layout_height="52dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="143dp"
-        android:layout_marginBottom="56dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/baseline_search_24"
         android:drawablePadding="10dp"
@@ -41,17 +37,31 @@
         android:textColor="#FEFEFE"
         android:textColorHint="#FEFEFE"
         android:theme="@style/Theme.ALLERGICATEVersion2"
-        app:layout_constraintBottom_toTopOf="@+id/btnSearch"
-        app:layout_constraintStart_toStartOf="@+id/textViewEnterCity"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewEnterCity"
+        android:layout_width="153dp"
+        android:layout_height="31dp"
+        android:text="Enter a City"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/search_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnSearch"
-        android:layout_width="205dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="243dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="292dp"
         android:background="@drawable/btn_bg"
         android:text="Search for Restaurants"
         android:textAllCaps="false"
@@ -62,21 +72,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
-
-    <TextView
-        android:id="@+id/textViewEnterCity"
-        android:layout_width="94dp"
-        android:layout_height="28dp"
-        android:text="City:"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362" />
+        app:layout_constraintTop_toBottomOf="@+id/search_bar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

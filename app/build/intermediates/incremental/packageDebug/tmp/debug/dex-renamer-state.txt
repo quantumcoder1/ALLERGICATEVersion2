@@ -1,4 +1,4 @@
-#Wed Nov 01 15:07:27 PDT 2023
+#Wed Nov 01 15:47:13 PDT 2023
 base.0=C\:\\Users\\TDPUser\\StudioProjects\\ALLERGICATEVersion2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\TDPUser\\StudioProjects\\ALLERGICATEVersion2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\TDPUser\\StudioProjects\\ALLERGICATEVersion2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
