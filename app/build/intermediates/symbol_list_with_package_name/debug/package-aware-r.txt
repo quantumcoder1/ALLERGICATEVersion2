@@ -3900,6 +3900,7 @@ id textTop
 id textVeganRating
 id textVegetarianRating
 id textView
+id textView2
 id textViewALLERGICATE
 id textViewALLERGICATE2
 id textViewAllergyIndex

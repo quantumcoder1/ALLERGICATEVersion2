@@ -46,6 +46,11 @@ public class RestaurantInformation extends AppCompatActivity {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             return true;
+        } else if (itemId == R.id.menuHome){
+            Intent intent = new Intent(getApplicationContext(), HomeScreen.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

@@ -66,6 +66,9 @@ public class MenuItemAdapter extends RecyclerView.Adapter<MenuItemAdapter.ViewHo
                     LinearLayout.LayoutParams.WRAP_CONTENT
             );
             imageView.setLayoutParams(layoutParams);
+            imageView.setBackgroundColor(Color.WHITE);
+//            layoutParams.setMargins(8, 0, 8, 0);
+            imageView.setLayoutParams(layoutParams);
             holder.linearLayoutForIcons.addView(imageView);
         }
         if (position % 2 == 0) {

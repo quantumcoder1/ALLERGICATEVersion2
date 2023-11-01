@@ -346,7 +346,7 @@
       ]
     },
     {
-      "name": "Spicy Thai Delight",
+      "name": "Thai Trio",
       "cuisine": "Thai",
       "menu": {
         "appetizers": [
@@ -615,6 +615,343 @@
             "user": "Sophie",
             "rating": 4,
             "comment": "The Turkey Club Sandwich is a classic favorite."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Big Fish Sushi",
+      "cuisine": "Japanese",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Edamame",
+            "description": "Steamed soybean pods with sea salt.",
+            "price": 4.99,
+            "ingredients": ["Edamame", "Sea Salt"],
+            "allergens": []
+          },
+          {
+            "name": "Agedashi Tofu",
+            "description": "Deep-fried tofu served with a savory sauce.",
+            "price": 6.99,
+            "ingredients": ["Tofu", "Savory Sauce"],
+            "allergens": ["Soy"]
+          }
+        ],
+        "sushi": [
+          {
+            "name": "California Roll",
+            "description": "Crab, avocado, and cucumber rolled in seaweed and rice.",
+            "price": 8.99,
+            "ingredients": ["Crab", "Avocado", "Cucumber", "Seaweed", "Rice"],
+            "allergens": ["Soy"]
+          },
+          {
+            "name": "Nigiri Sushi",
+            "description": "Assorted nigiri sushi with fresh fish and rice.",
+            "price": 15.99,
+            "ingredients": ["Fresh Fish", "Rice"],
+            "allergens": ["Fish"]
+          }
+        ],
+        "sashimi": [
+          {
+            "name": "Salmon Sashimi",
+            "description": "Sliced salmon served with wasabi and soy sauce.",
+            "price": 12.99,
+            "ingredients": ["Salmon", "Wasabi", "Soy Sauce"],
+            "allergens": ["Fish", "Soy"]
+          },
+          {
+            "name": "Tuna Sashimi",
+            "description": "Fresh tuna slices with pickled ginger and wasabi.",
+            "price": 14.99,
+            "ingredients": ["Tuna", "Pickled Ginger", "Wasabi"],
+            "allergens": ["Fish", "Soy"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Alex",
+            "rating": 5,
+            "comment": "The California Roll is a must-try! Fresh and delicious."
+          },
+          {
+            "user": "Emily",
+            "rating": 4,
+            "comment": "I love their Salmon Sashimi. It's so tender and flavorful."
+          },
+          {
+            "user": "Chris",
+            "rating": 4,
+            "comment": "Big Fish Sushi never disappoints with its sushi selection."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Time NW",
+      "cuisine": "Mexican",
+      "menu": {
+        "tacos": [
+          {
+            "name": "Crisp Taco",
+            "description": "Seasoned ground beef, lettuce, and cheddar cheese in a crispy taco shell.",
+            "price": 2.99,
+            "ingredients": ["Seasoned Beef", "Lettuce", "Cheddar Cheese", "Taco Shell"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Soft Taco",
+            "description": "Soft flour tortilla with your choice of protein, lettuce, and tomato.",
+            "price": 3.49,
+            "ingredients": ["Protein", "Flour Tortilla", "Lettuce", "Tomato"],
+            "allergens": ["Wheat"]
+          }
+        ],
+        "burritos": [
+          {
+            "name": "Bean Burrito",
+            "description": "Pinto beans, cheddar cheese, and salsa in a warm tortilla.",
+            "price": 4.99,
+            "ingredients": ["Pinto Beans", "Cheddar Cheese", "Salsa", "Tortilla"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Chicken Burrito",
+            "description": "Grilled chicken, rice, black beans, and sour cream in a flour tortilla.",
+            "price": 6.99,
+            "ingredients": ["Grilled Chicken", "Rice", "Black Beans", "Sour Cream", "Flour Tortilla"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "nachos": [
+          {
+            "name": "Loaded Nachos",
+            "description": "Crispy tortilla chips topped with seasoned beef, cheddar cheese, and jalapeños.",
+            "price": 5.99,
+            "ingredients": ["Tortilla Chips", "Seasoned Beef", "Cheddar Cheese", "Jalapeños"],
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Vegetarian Nachos",
+            "description": "Tortilla chips with black beans, guacamole, and sour cream.",
+            "price": 4.99,
+            "ingredients": ["Tortilla Chips", "Black Beans", "Guacamole", "Sour Cream"],
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Jessica",
+            "rating": 5,
+            "comment": "The Crisp Tacos are so crunchy and delicious!"
+          },
+          {
+            "user": "Michael",
+            "rating": 4,
+            "comment": "Taco Time NW serves some of the best burritos in town."
+          },
+          {
+            "user": "Linda",
+            "rating": 4,
+            "comment": "I love their Loaded Nachos with plenty of cheese."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dairy Queen",
+      "cuisine": "Ice Cream & Fast Food",
+      "menu": {
+        "ice_cream": [
+          {
+            "name": "Chocolate Sundae",
+            "description": "Rich chocolate ice cream topped with hot fudge and whipped cream.",
+            "price": 4.99,
+            "allergens": ["Dairy"]
+          },
+          {
+            "name": "Vanilla Blizzard",
+            "description": "Creamy vanilla ice cream with your choice of mix-ins blended to perfection.",
+            "price": 5.99,
+            "allergens": ["Dairy"]
+          }
+        ],
+        "burgers": [
+          {
+            "name": "Classic Cheeseburger",
+            "description": "A juicy beef patty with melted cheese, lettuce, tomato, and special sauce.",
+            "price": 6.99,
+            "allergens": ["Dairy", "Wheat"]
+          },
+          {
+            "name": "Grilled Chicken Sandwich",
+            "description": "Grilled chicken breast with lettuce and mayo on a soft bun.",
+            "price": 7.49,
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "side_items": [
+          {
+            "name": "French Fries",
+            "description": "Golden and crispy french fries, perfect for dipping.",
+            "price": 2.99,
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Onion Rings",
+            "description": "Savory onion rings with a crunchy coating.",
+            "price": 3.49,
+            "allergens": ["Dairy", "Wheat"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Sarah",
+            "rating": 4,
+            "comment": "The Chocolate Sundae is a must-try for ice cream lovers."
+          },
+          {
+            "user": "David",
+            "rating": 5,
+            "comment": "Dairy Queen's burgers are always juicy and delicious."
+          },
+          {
+            "user": "Emily",
+            "rating": 4,
+            "comment": "Their onion rings are crispy and tasty."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vinason Pho Kitchen",
+      "cuisine": "Vietnamese",
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Spring Rolls",
+            "description": "Fresh spring rolls with shrimp, vermicelli, and herbs. Served with peanut sauce.",
+            "price": 7.99,
+            "allergens": ["Peanuts", "Shellfish"]
+          },
+          {
+            "name": "Crispy Tofu",
+            "description": "Deep-fried tofu served with a sweet chili dipping sauce.",
+            "price": 6.99,
+            "allergens": []
+          }
+        ],
+        "pho": [
+          {
+            "name": "Beef Pho",
+            "description": "Traditional Vietnamese noodle soup with beef slices, herbs, and bean sprouts.",
+            "price": 10.99,
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Chicken Pho",
+            "description": "Savory chicken noodle soup with aromatic spices and fresh herbs.",
+            "price": 9.99,
+            "allergens": ["Wheat"]
+          }
+        ],
+        "vermicelli": [
+          {
+            "name": "Grilled Pork Vermicelli",
+            "description": "Grilled marinated pork served with vermicelli noodles and fish sauce.",
+            "price": 11.99,
+            "allergens": []
+          },
+          {
+            "name": "Shrimp Vermicelli",
+            "description": "Grilled shrimp on a bed of vermicelli noodles with a special sauce.",
+            "price": 12.99,
+            "allergens": ["Shellfish"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "Lisa",
+            "rating": 5,
+            "comment": "The Beef Pho here is so flavorful and comforting."
+          },
+          {
+            "user": "Michael",
+            "rating": 4,
+            "comment": "I love their Spring Rolls with peanut sauce."
+          },
+          {
+            "user": "Anna",
+            "rating": 5,
+            "comment": "The Grilled Pork Vermicelli is a delightful dish."
+          }
+        ]
+      }
+    },
+    {
+      "name": "McDonald's",
+      "cuisine": "Fast Food",
+      "menu": {
+        "burgers": [
+          {
+            "name": "Big Mac",
+            "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
+            "price": 4.99,
+            "allergens": ["Wheat", "Dairy"]
+          },
+          {
+            "name": "Quarter Pounder with Cheese",
+            "description": "A quarter pound of 100% beef, cheese, pickles, onions, and ketchup on a sesame seed bun.",
+            "price": 4.49,
+            "allergens": ["Wheat", "Dairy"]
+          }
+        ],
+        "chicken": [
+          {
+            "name": "McChicken",
+            "description": "A crispy chicken patty with mayonnaise and lettuce on a bun.",
+            "price": 3.99,
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Spicy McChicken",
+            "description": "A spicy chicken patty with lettuce and mayo on a bun.",
+            "price": 4.29,
+            "allergens": ["Wheat"]
+          }
+        ],
+        "fries": [
+          {
+            "name": "Medium Fries",
+            "description": "Golden and crispy medium-sized french fries.",
+            "price": 2.99,
+            "allergens": ["Wheat"]
+          },
+          {
+            "name": "Large Fries",
+            "description": "Extra-large serving of golden, crispy fries.",
+            "price": 3.49,
+            "allergens": ["Wheat"]
+          }
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "rating": 4,
+            "comment": "The Big Mac is a classic, and it never disappoints."
+          },
+          {
+            "user": "Sarah",
+            "rating": 3,
+            "comment": "The McChicken is a simple, tasty option."
+          },
+          {
+            "user": "Mike",
+            "rating": 5,
+            "comment": "I can't resist their fries, especially the Large Fries!"
           }
         ]
       }

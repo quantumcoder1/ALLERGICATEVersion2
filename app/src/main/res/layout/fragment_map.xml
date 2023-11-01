@@ -7,16 +7,22 @@
     android:layout_height="match_parent"
     android:visibility="visible"
     tools:context=".MapFragment"
-    tools:visibility="visible">
+    tools:visibility="visible"
+    android:background="@color/purple_700">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/mapFragment"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="312dp"
+        android:layout_height="283dp"
+        android:background="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".SearchResultsMap" />

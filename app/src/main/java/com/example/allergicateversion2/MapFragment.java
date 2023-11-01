@@ -122,7 +122,6 @@ public class MapFragment extends Fragment {
                     bundle.putString("title", marker.getTitle());
                     bundle.putString("snippet", marker.getSnippet());
 
-//                    String jsonObject = marker.getTag().toString();
                     bundle.putParcelable("keyuser", userInfo);
                     bundle.putString("jsonObject", jsonObject);
                     // Pass the Bundle to another fragment or activity

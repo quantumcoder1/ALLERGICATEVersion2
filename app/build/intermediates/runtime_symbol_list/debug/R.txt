@@ -3899,6 +3899,7 @@ int id textTop 0x7f080225
 int id textVeganRating 0x7f080226
 int id textVegetarianRating 0x7f080227
 int id textView 0x7f080228
+int id textView2 0x7f080272
 int id textViewALLERGICATE 0x7f080229
 int id textViewALLERGICATE2 0x7f08022a
 int id textViewAllergyIndex 0x7f08022b

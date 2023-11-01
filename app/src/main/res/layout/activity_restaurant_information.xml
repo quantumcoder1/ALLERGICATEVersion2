@@ -101,7 +101,7 @@
         <RatingBar
             android:id="@+id/ratingBarVegetarian"
             android:layout_width="245dp"
-            android:layout_height="57dp"
+            android:layout_height="45dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +119,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
                 tools:context=".MainActivity">
 
                 <androidx.recyclerview.widget.RecyclerView
@@ -132,22 +131,6 @@
                     android:layout_alignParentBottom="true" />
             </RelativeLayout>
 
-            <!--            <LinearLayout-->
-            <!--                android:id="@+id/menuItemContainer"-->
-            <!--                android:layout_width="409dp"-->
-            <!--                android:layout_height="304dp"-->
-            <!--                android:orientation="vertical"-->
-            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
-            <!--                app:layout_constraintEnd_toEndOf="parent"-->
-            <!--                app:layout_constraintStart_toStartOf="parent"-->
-            <!--                app:layout_constraintTop_toBottomOf="@+id/textViewAllergyIndex">-->
-
-            <!--                <LinearLayout-->
-            <!--                    android:layout_width="match_parent"-->
-            <!--                    android:layout_height="match_parent"-->
-            <!--                    android:orientation="horizontal"-->
-            <!--                    android:id="@+id/contentContainer"></LinearLayout>-->
-            <!--            </LinearLayout>-->
         </ScrollView>
 
         <!-- Additional UI elements can be added here -->

@@ -68,8 +68,10 @@ public class LoginActivity extends AppCompatActivity {
         TextView btn_login = findViewById(R.id.signUp);
         TextView forgotPassword = findViewById(R.id.listquestion);
         editTextEmail = findViewById(R.id.inputEmail);
+        editTextEmail.setText("sathnil19@gmail.com");
         editTextPassword = findViewById(R.id.inputPasswords);
         editTextPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        editTextPassword.setText("1234567");
         textView = findViewById(R.id.signUp);
         buttonLog = findViewById(R.id.btnlogin);
         btnGoogle.setOnClickListener(new View.OnClickListener() {
